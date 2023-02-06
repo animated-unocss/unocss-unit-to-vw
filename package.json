@@ -7,7 +7,7 @@
   "license": "MIT",
   "keywords": [
     "unocss",
-    "rem-to-vw",
+    "rem/px to vw",
     "preset"
   ],
   "scripts": {
