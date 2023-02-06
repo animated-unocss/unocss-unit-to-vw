@@ -3,7 +3,7 @@ import type { Preset } from "@unocss/core"
 const remRE = /(-?[\.\d]+)rem/g
 const pxRE = /(-?[\.\d]+)px/g
 
-export interface PxToVwOptions {
+export interface RemToVwOptions {
 	/**
 	 * 1rem = n px
 	 * @default 16
@@ -14,7 +14,7 @@ export interface PxToVwOptions {
 	unitPrecision?: number
 }
 
-export default function presetRemToVw(options: PxToVwOptions = {}): Preset {
+export default function presetRemToVw(options: RemToVwOptions = {}): Preset {
 	const { baseFontSize = 16, baseWidth = 375, unitPrecision = 4 } = options
 
 	const pxToVw = (px: number) => ((100 / baseWidth) * px).toFixed(unitPrecision)
