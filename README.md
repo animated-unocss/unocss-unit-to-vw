@@ -8,8 +8,12 @@ Convert all rem/px to vw in utils
 npm install --save-dev unocss-unit-to-vw
 ```
 
+## Usage
+
 <details>
 <summary>preset rem to vw</summary><br>
+
+### Options
 
 ```ts
 // rem to vw options
@@ -19,6 +23,8 @@ interface RemToVwOptions {
 	unitPrecision?: number // defalut 4
 }
 ```
+
+### Config
 
 ```ts
 import { defineConfig } from 'vite'
@@ -44,11 +50,15 @@ export default defineConfig({
 <details>
 <summary>preset px to vw</summary><br>
 
+### Options
+
 ```ts
 interface PxToVwOptions {
     viewportWidth?: number // defalut 750
 }
 ```
+
+### Config
 
 ```ts
 import { defineConfig } from 'vite'
