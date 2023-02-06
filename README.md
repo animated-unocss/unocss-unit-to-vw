@@ -50,6 +50,7 @@ export default defineConfig({
 .m-2 {
   margin: 0.5rem;
 }
+
 .m-8px {
   margin: 8px;
 }
