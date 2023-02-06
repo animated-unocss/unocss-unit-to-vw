@@ -48,10 +48,10 @@ export default defineConfig({
 
 ```css
 .m-2 {
-	margin: 0.5rem;
+  margin: 0.5rem;
 }
 .m-8px {
-	margin: 8px;
+  margin: 8px;
 }
 ```
 
@@ -61,10 +61,10 @@ export default defineConfig({
 
 ```css
 .m-2 {
-	margin: 2.1333vw;
+  margin: 2.1333vw;
 }
 
 .m-8px {
-	margin: 2.1333vw;
+  margin: 2.1333vw;
 }
 ```
