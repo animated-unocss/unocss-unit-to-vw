@@ -10,9 +10,6 @@ npm install --save-dev unocss-unit-to-vw
 
 ## Usage
 
-<details>
-<summary>preset rem to vw</summary><br>
-
 ### Options
 
 ```ts
@@ -30,7 +27,7 @@ interface RemToVwOptions {
 import { defineConfig } from 'vite'
 import UnoCSS from 'unocss/vite'
 import { presetUno } from 'unocss'
-import { presetRemToVw } from "unocss-unit-to-vw"
+import presetRemToVw from "unocss-unit-to-vw"
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -45,38 +42,29 @@ export default defineConfig({
 })
 ```
 
-<br></details>
+<table><tr><td width="500px" valign="top">
 
-<details>
-<summary>preset px to vw</summary><br>
+### without
 
-### Options
-
-```ts
-interface PxToVwOptions {
-    viewportWidth?: number // defalut 750
+```css
+.m-2 {
+	margin: 0.5rem;
+}
+.m-8px {
+	margin: 8px;
 }
 ```
 
-### Config
+</td><td width="500px" valign="top">
 
-```ts
-import { defineConfig } from 'vite'
-import UnoCSS from 'unocss/vite'
-import { presetUno } from 'unocss'
-import { presetPxToVw } from "unocss-unit-to-vw"
+### with
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [
-    UnoCSS({
-      presets: [
-        presetUno(),
-        presetPxToVw()
-      ],
-    }),
-  ],
-})
+```css
+.m-2 {
+	margin: 2.1333vw;
+}
+
+.m-8px {
+	margin: 2.1333vw;
+}
 ```
-
-<br></details>
