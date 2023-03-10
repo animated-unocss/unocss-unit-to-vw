@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "unocss": "^0.50.1",
+    "unocss": "^0.50.4",
     "unocss-unit-to-vw": "workspace:*",
     "vue": "^3.2.47"
   },
