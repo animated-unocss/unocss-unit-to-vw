@@ -1,7 +1,7 @@
 {
   "name": "unocss-unit-to-vw",
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Convert all rem/px to vw in utils",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
