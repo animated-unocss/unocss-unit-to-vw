@@ -15,9 +15,9 @@ npm install --save-dev unocss-unit-to-vw
 ```ts
 // rem to vw options
 interface RemToVwOptions {
-	baseFontSize?: number // defalut 16
-	baseWidth?: number // defalut 375
-	unitPrecision?: number // defalut 4
+  baseFontSize?: number // defalut 16
+  baseWidth?: number // defalut 375
+  unitPrecision?: number // defalut 4
 }
 ```
 
@@ -27,7 +27,7 @@ interface RemToVwOptions {
 import { defineConfig } from 'vite'
 import UnoCSS from 'unocss/vite'
 import { presetUno } from 'unocss'
-import presetRemToVw from "unocss-unit-to-vw"
+import presetRemToVw from 'unocss-unit-to-vw'
 
 // https://vitejs.dev/config/
 export default defineConfig({
