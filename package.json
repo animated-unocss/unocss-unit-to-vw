@@ -36,8 +36,8 @@
     "@unocss/core": "^0.62.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.27.1",
-    "@types/node": "^22.5.0",
+    "@antfu/eslint-config": "^2.27.3",
+    "@types/node": "^22.5.2",
     "bumpp": "^9.5.2",
     "eslint": "^9.9.1",
     "fast-glob": "^3.3.2",
