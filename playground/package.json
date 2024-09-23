@@ -11,7 +11,7 @@
   "dependencies": {
     "unocss": "^0.62.4",
     "unocss-unit-to-vw": "workspace:*",
-    "vue": "^3.5.7"
+    "vue": "^3.5.8"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
