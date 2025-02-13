@@ -36,7 +36,7 @@
     "@unocss/core": "^0.65.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.16.0",
+    "@antfu/eslint-config": "^4.2.0",
     "@types/node": "^22.13.2",
     "bumpp": "^9.11.1",
     "eslint": "^9.20.1",
