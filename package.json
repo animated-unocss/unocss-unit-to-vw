@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
-    "@types/node": "^22.13.2",
+    "@types/node": "^24.13.6",
     "bumpp": "^9.11.1",
     "eslint": "^9.20.1",
     "fast-glob": "^3.3.3",
