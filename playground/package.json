@@ -11,12 +11,12 @@
   "dependencies": {
     "unocss": "^66.11.0",
     "unocss-unit-to-vw": "workspace:*",
-    "vue": "^3.5.13"
+    "vue": "^3.5.44"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "typescript": "^5.7.3",
-    "vite": "^6.1.0",
-    "vue-tsc": "^2.2.0"
+    "@vitejs/plugin-vue": "^5.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.4",
+    "vue-tsc": "^2.2.12"
   }
 }
