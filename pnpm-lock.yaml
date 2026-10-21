@@ -47,8 +47,8 @@ importers:
         version: 3.5.44(typescript@5.9.3)
     devDependencies:
       '@vitejs/plugin-vue':
-        specifier: ^5.2.4
-        version: 5.2.4(vite@6.4.4(@types/node@22.20.5)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0))(vue@3.5.44(typescript@5.9.3))
+        specifier: ^6.0.10
+        version: 6.0.10(vite@6.4.4(@types/node@22.20.5)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0))(vue@3.5.44(typescript@5.9.3))
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -904,6 +904,9 @@ packages:
   '@quansync/fs@1.1.0':
     resolution: {integrity: sha512-qAPG/t3HqML1TlN7sY/pTbEjzFVAKsMjNNMGheyDosro+kT4iw2KCUoHcVdmliwWjorm4elZbgNQyU2eD97eDg==}
 
+  '@rolldown/pluginutils@1.0.1':
+    resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
+
   '@rollup/rollup-android-arm-eabi@4.64.10':
     resolution: {integrity: sha512-oJ9ZfVIZjSjts0ZIYA48+5T0vurE5fQfX/Liad2U52Y6EN99x/OCdjGGuKMDP6jSk2i2lY6jwwA3X0drEc4PBg==}
     cpu: [arm]
@@ -1237,12 +1240,12 @@ packages:
     peerDependencies:
       vite: ^5.0.0-0 || ^6.0.0-0 || ^7.0.0-0 || ^8.0.0-0
 
-  '@vitejs/plugin-vue@5.2.4':
-    resolution: {integrity: sha512-7Yx/SXSOcQq5HiiV3orevHUFn+pmMB4cgbEkDYgnkUWb0WfeQ/wa2yFv6D5ICiCQOVpjA7vYDXrC7AGO8yjDHA==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  '@vitejs/plugin-vue@6.0.10':
+    resolution: {integrity: sha512-b80aUQh3n+qEzzZm5oQp3rT2QImeCx58K6eFl/RkJ3d65KW0kTuv5lNsLRVAjbW9YRUpo/wzmvzMgV34bTAItA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      vite: ^5.0.0 || ^6.0.0
-      vue: ^3.2.25
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+      vue: ^3.2.25 || ^3.6.0-rc.10
 
   '@vitest/eslint-plugin@1.1.31':
     resolution: {integrity: sha512-xlsLr+e+AXZ/00eVZCtNmMeCJoJaRCoLDiAgLcxgQjSS1EertieB2MUHf8xIqPKs9lECc/UpL+y1xDcpvi02hw==}
@@ -3662,6 +3665,8 @@ snapshots:
     dependencies:
       quansync: 1.0.0
 
+  '@rolldown/pluginutils@1.0.1': {}
+
   '@rollup/rollup-android-arm-eabi@4.64.10':
     optional: true
 
@@ -4069,8 +4074,9 @@ snapshots:
       - ocache
       - srvx
 
-  '@vitejs/plugin-vue@5.2.4(vite@6.4.4(@types/node@22.20.5)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0))(vue@3.5.44(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.10(vite@6.4.4(@types/node@22.20.5)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0))(vue@3.5.44(typescript@5.9.3))':
     dependencies:
+      '@rolldown/pluginutils': 1.0.1
       vite: 6.4.4(@types/node@22.20.5)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)
       vue: 3.5.44(typescript@5.9.3)
 
