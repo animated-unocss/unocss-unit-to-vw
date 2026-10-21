@@ -39,7 +39,7 @@
     "@antfu/eslint-config": "^3.16.0",
     "@types/node": "^22.20.5",
     "bumpp": "^9.11.1",
-    "eslint": "^9.39.5",
+    "eslint": "^10.13.0",
     "fast-glob": "^3.3.3",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
